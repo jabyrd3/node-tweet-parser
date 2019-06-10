@@ -1,0 +1,15 @@
+{
+  "name": "parse-tweets",
+  "version": "1.0.0",
+  "description": "pulls some fields out of tweets for reasons",
+  "main": "parse.js",
+  "dependencies": {
+    "event-stream": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jordan byrd",
+  "license": "ISC"
+}
