@@ -8,7 +8,7 @@ this is an intensely unpolished attempt to grab some tweet data from massive fil
 ## install
 - clone this repo
 - navigate to the dir
-- npm install
+- `npm install`
 
 ## usage
-- in dir, node prune.js <path to input file> <path to output file>
+- in this dir ```node prune.js <path to input file> <path to output file>```
