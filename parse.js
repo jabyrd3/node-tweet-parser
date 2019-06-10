@@ -16,7 +16,7 @@ const s = fs.createReadStream(inFile)
     .pipe(es.mapSync(function(line){
         s.pause();
         lineNr += 1;
-        if(lineNr % 50 === 0) {console.log(`writing line ${lineNr}`)};
+        if(lineNr % 200 === 0) {console.log(`writing line ${lineNr}`)};
         var json;
         try{
           json = JSON.parse(line);

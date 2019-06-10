@@ -11,4 +11,4 @@ this is an intensely unpolished attempt to grab some tweet data from massive fil
 - `npm install`
 
 ## usage
-- in this dir ```node prune.js <path to input file> <path to output file>```
+- in this dir ```node parse.js <path to input file> <path to output file>```
